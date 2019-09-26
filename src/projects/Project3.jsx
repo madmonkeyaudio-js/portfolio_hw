@@ -5,7 +5,7 @@ class Project3 extends Component {
         return (
             <div className="project-odd">
                 <div className="proj-content-left">
-                This is Project 3
+                This is Project 3 Text
                 </div>
                 <div className="proj-content-right">
                     <li>
