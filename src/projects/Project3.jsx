@@ -4,10 +4,14 @@ class Project3 extends Component {
     render() {
         return (
             <div className="project-odd">
+                <div className="proj-content-left">
                 This is Project 3
-                <li>
-                    <a href="#">Project3</a>
-                </li>
+                </div>
+                <div className="proj-content-right">
+                    <li>
+                        <a href="#">Project3</a>
+                    </li>
+                </div>
             </div>
         )
     }
