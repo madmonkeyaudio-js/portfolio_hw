@@ -10,7 +10,7 @@
 
 .App-header {
   background-color: #13352c;
-  min-height: 40vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,10 +55,25 @@ main {
 ul {
   list-style-type: none;
 }
+.main-left {
+  height: 100%;
+  width: 30%;
+  border: 1px solid black;
+}
+.main-right {
+  height: 100%;
+  width: 70%;
+}
 
-.blog-post {
-  border: solid black;
-  padding: 20px;
-  margin: 10px 0px;
-  min-width: 80vw;
+.project-odd {
+  width: 100%;
+  height: 30vh;
+  border: 1px solid black;
+  margin: 5px;
+}
+.project-even {
+  width: 100%;
+  height: 30vh;
+  border: 1px solid black;
+  margin: 5px;
 }
