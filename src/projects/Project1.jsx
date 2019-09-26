@@ -9,7 +9,7 @@ class Project1 extends Component {
                 </div>
                 <div className="proj-content-right">
                     <li>
-                        <a href="#">Project1</a>
+                        <a href="#">Image1</a>
                     </li>
                 </div>
             </div>
