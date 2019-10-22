@@ -3,12 +3,12 @@ import React from 'react';
 const About = props => {
     return (
         <div>
-            <h4>Hi, I'm Jonathan, a fullstack developer with skills in React, 
-                Node.js, SQL, and MongoDB. My original background
-                is in audio production and sound design for video games
-                and virtual reality. Exposure to code in these fields
-                encouraged me to develop a love of programming and software development.
-                Checkout some of these projects I've worked on! 
+            <h4>Hi, I'm Jonathan, a full stack developer who thrives in collaborative teams and new experiences.  
+                I excel in projects that convert challenges into user-friendly results and have
+                a passion for designing creative and interactive software.
+                <br/>
+                <br/>
+                Check out my work below!
             </h4>
         </div>
     )

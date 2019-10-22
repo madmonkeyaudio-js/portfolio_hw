@@ -4,7 +4,7 @@ class Project2 extends Component {
     render() {
         return (
             <div className="single-project">
-                <h2>Holendary</h2>
+                <h3>Holendary</h3>
                 <div>
                     <li>
                         <a href="https://holendary-client-jon.herokuapp.com/">

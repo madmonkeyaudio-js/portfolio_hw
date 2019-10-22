@@ -4,7 +4,7 @@ class Project3 extends Component {
     render() {
         return (
             <div className="single-project">
-                <h2>My Best Buyz</h2>
+                <h3>My Best Buyz</h3>
                 <div className="proj-content-right">
                     <li>
                         <a href="#">

@@ -75,6 +75,10 @@ li {
 h2 {
   text-align: center;
 }
+
+h3 {
+  text-align: center;
+}
 .about {
   padding: 100px;
   display: flex;
@@ -109,7 +113,7 @@ h2 {
 }
 
 .skills {
-  padding: 100px 0px;
+  padding: 200px 0;
   display: flex;
   justify-content: space-evenly;
 }
@@ -122,6 +126,12 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.projects-title {
+  border: 13px solid #33FFDA;
+  width: 20vw;
+  margin: 0 auto;
 }
 .single-project {
   min-width: 20vw;

@@ -28,7 +28,9 @@ class Content extends React.Component {
                     <Skills />
                 </div>
                 <div className="projects-container">
-                    <h1>My Projects</h1>
+                    <div className="projects-title">
+                        <h2>Projects</h2>
+                    </div>
                     <div className = "projects">
                         <Project1 />
                         <Project2 />
