@@ -7,6 +7,7 @@ import Skills from './pages/Skills'
 import Fade from 'react-reveal/Fade'
 
 
+
 class Content extends React.Component {
     
     render(){
@@ -21,7 +22,7 @@ class Content extends React.Component {
                     </div>
                     <Fade right>
                         <div className="about-text">
-                                <About />
+                               <About />
                         </div>
                     </Fade>
                 </div>
@@ -32,7 +33,7 @@ class Content extends React.Component {
                     <div className="projects-title">
                         <h2>Projects</h2>
                     </div>
-                    <div className = "projects">
+                    <div className = "projects" id="projects">
                         <Project1 />
                         <Project2 />
                         <Project3 />

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import classnames from 'classnames'
+import { Link, animateScroll as scroll} from 'react-scroll'
 
 class Nav extends Component {
     constructor(props) {
@@ -36,9 +37,35 @@ class Nav extends Component {
             className={classnames('nav'), {
                 'nav--hidden': !this.state.visible
             }}>
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
+                <ul>
+                <Link
+                    activeClass="active"
+                    to="about-container"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >About
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >Skills
+                </Link>
+                <Link
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >Projects
+                </Link>
+                </ul>
             </nav>
         )
     }
