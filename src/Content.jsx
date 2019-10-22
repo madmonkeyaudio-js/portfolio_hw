@@ -1,29 +1,39 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-
-
-
-import Home from './pages/Home';
 import About from './pages/About';
 import Project1 from './projects/Project1'
 import Project2 from './projects/Project2'
 import Project3 from './projects/Project3'
-
-
+import Skills from './pages/Skills'
+import Fade from 'react-reveal/Fade'
 
 class Content extends React.Component {
     
     render(){
         return (
-            <main>
-                <div className = "main-left">
-                    <Route exact path='/' component={Home} />
-                    <Route path='/about' component={About} />
+            <main id="main">
+                <div className="about">
+                    <div className="profile">
+                        <Fade left>
+                            <div className="profile-pic">
+                            </div>
+                        </Fade>
+                    </div>
+                    <Fade right>
+                        <div className="about-text">
+                                <About />
+                        </div>
+                    </Fade>
                 </div>
-                <div className = "main-right">
-                    <Project1 />
-                    <Project2 />
-                    <Project3 />
+                <div>
+                    <Skills />
+                </div>
+                <div className="projects-container">
+                    <h1>My Projects</h1>
+                    <div className = "projects">
+                        <Project1 />
+                        <Project2 />
+                        <Project3 />
+                    </div>
                 </div>
             
             </main>

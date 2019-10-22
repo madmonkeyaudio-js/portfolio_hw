@@ -1,7 +1,7 @@
+
 .App {
   text-align: center;
 }
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -9,14 +9,21 @@
 }
 
 .App-header {
-  background-color: #13352c;
-  min-height: 10vh;
+  background-image:
+  linear-gradient(to bottom right, #FF0866 50%, #E88605 50%);
+
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.header-text {
+  border: 13px solid #33FFDA;
+  padding: 30px;
 }
 
 .App-link {
@@ -31,6 +38,7 @@
     transform: rotate(360deg);
   }
 }
+
 
 nav {
   display: flex;
@@ -48,44 +56,112 @@ nav a {
 }
 
 main {
-  display: flex;
   justify-content: center;
 }
 
 ul {
   list-style-type: none;
 }
-.main-left {
-  height: 100%;
-  width: 30%;
-  border: 1px solid black;
-  margin: 5px;
-}
-.main-right {
-  height: 100%;
-  width: 70%;
+.main-background {
+  background-image: linear-gradient(#E88605, #FF0866);
+  color: white;
+  transition:all 0.3s ease;
 }
 
-.project-odd {
-  width: 100%;
-  height: 30vh;
-  border: 1px solid black;
-  margin: 5px;
+li {
+  list-style-type: none;
+}
+
+h2 {
+  text-align: center;
+}
+.about {
+  padding: 100px;
   display: flex;
+  min-width: 100vw;
+  min-height: 30vh;
+  text-align: left;
+  justify-content: space-around;
 }
-.project-even {
-  width: 100%;
+
+.profile {
+  max-width: 50vw;
   height: 30vh;
+  padding: 0 50px 0 0;
+}
+
+.profile-pic {
+  background-image: url('images/profile-pic.jpg');
+  height: 45vh;
+  width: 20vw;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5%;
   border: 1px solid black;
-  margin: 5px;
+}
+
+.about-text {
+  max-width: 50vw;
+  border: 13px solid #FF0866;
+  padding: 10px;
+ 
+}
+
+.projects-container {
+  text-align: center;
+}
+
+.projects {
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.proj-content-left {
-  width: 70%;
-  height: 100%;
+.single-project {
+  min-width: 20vw;
+  max-width: 20vw;
+  padding: 20px;
+  text-align: left;
 }
-.proj-content-right {
-  width: 30%;
-  height: 100%;
-  border: 1px solid black;
+
+.fade {
+  opacity: 1;
+  transition:all 0.3s ease;
 }
+
+.fade:hover {
+  transition:all 0.5s ease;
+  opacity: 0.7;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+#goat-contain {
+  background-image: url('https://media.istockphoto.com/photos/animal-photos-picture-id834732994?k=6&m=834732994&s=612x612&w=0&h=06pjJwtABcoSl5U9jBhciMb2wX9kaqEV64Qkdbs7XNI=');
+  min-height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+}
+
+#holendary-contain {
+  background-image: url('https://www.hellomagazine.com/imagenes/travel/2018072750655/75-things-you-need-to-pack-holidays/0-247-939/Packing-suitcase-t.jpg');
+  min-height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+}
+
+#bestbuyz-contain {
+  background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  min-height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+}
+
+

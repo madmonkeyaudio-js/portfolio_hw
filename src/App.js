@@ -5,16 +5,15 @@ import './App.css';
 
 //Add custom components
 import Banner from './navigation/Banner';
-import Nav from './navigation/Nav';
 import Content from './Content';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
-        <Nav />
         <Banner />
-          <div>
+          <div className="main-background">
             <Content />
           </div>
       </Router>
