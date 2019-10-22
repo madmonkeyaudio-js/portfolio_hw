@@ -5,6 +5,7 @@ import './App.css';
 
 //Add custom components
 import Banner from './navigation/Banner';
+import Nav from './navigation/Nav'
 import Content from './Content';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Nav />
         <Banner />
           <div className="main-background">
             <Content />

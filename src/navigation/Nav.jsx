@@ -1,16 +1,47 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react'
+import classnames from 'classnames'
 
-const Nav = () => {
-    return (
-        <nav>
-            <ul>
-                <li>
-                    <Link to="/links">Links</Link>
-                </li>
-            </ul>
-        </nav>
-    )
+class Nav extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            prevScrollpos: window.pageYOffset,
+            visible: true
+        }
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll)
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll)
+    }
+
+    handleScroll = () => {
+        const { prevScrollpos } = this.state;
+
+        const currentScrollPos = window.pageYOffset;
+        const visible = prevScrollpos > currentScrollPos;
+
+        this.setState({
+            prevScrollpos: currentScrollPos,
+            visible
+        })
+    }
+    render() {
+        return (
+            <nav
+            className={classnames('nav'), {
+                'nav--hidden': !this.state.visible
+            }}>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Projects</a>
+            </nav>
+        )
+    }
 }
 
-export default Nav;
+export default Nav

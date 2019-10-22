@@ -6,6 +6,7 @@ import Project3 from './projects/Project3'
 import Skills from './pages/Skills'
 import Fade from 'react-reveal/Fade'
 
+
 class Content extends React.Component {
     
     render(){
