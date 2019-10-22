@@ -103,6 +103,7 @@ h3 {
   background-repeat: no-repeat;
   border-radius: 5%;
   border: 1px solid black;
+  box-shadow: 5px 5px rgb(52, 33, 1);
 }
 
 .about-text {
@@ -160,6 +161,7 @@ h3 {
   background-repeat: no-repeat;
   border-radius: 5px;
   margin: 0 10px 0 0;
+  box-shadow: 5px 8px rgb(53, 8, 8);
 }
 
 #holendary-contain {
@@ -169,6 +171,7 @@ h3 {
   background-repeat: no-repeat;
   border-radius: 5px;
   margin: 0 10px 0 0;
+  box-shadow: 5px 8px rgb(53, 8, 8);
 }
 
 #bestbuyz-contain {
@@ -178,6 +181,7 @@ h3 {
   background-repeat: no-repeat;
   border-radius: 5px;
   margin: 0 10px 0 0;
+  box-shadow: 5px 8px rgb(53, 8, 8);
 }
 
 
