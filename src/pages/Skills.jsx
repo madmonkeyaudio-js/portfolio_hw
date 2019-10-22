@@ -22,6 +22,7 @@ function Skills() {
                     <li>
                         SQL
                     </li>
+
                 </ul>
             </div>
             <div>

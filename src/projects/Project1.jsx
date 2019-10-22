@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Rubberband from 'react-reveal/RubberBand'
 
 class Project1 extends Component {
     render() {
@@ -22,10 +23,12 @@ class Project1 extends Component {
                     vetting process). 
                 </p>
                 <br/>
+                <Rubberband>
                 <p>
                     Technologies include: Mongoose, Express, React.js, Node.js, Socket.io, Twillio,
                     Mapbox, Axios
                 </p>
+                </Rubberband>
                 </div>
             </div>
         )
