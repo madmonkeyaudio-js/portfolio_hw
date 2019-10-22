@@ -1,11 +1,49 @@
-import React, { Component } from 'react'
-import {useSpring, animated} from 'react-spring'
+import React from 'react'
 
-function Skills(){
-    const props = useSpring({ scroll: 100, from: { scroll: 0 } })
-    return <animated.h1 scrollTop={props.scroll}>
-           My Skills
-        </animated.h1>
-    }
+function Skills() {
+    return (
+        <div className="skills">
+            <div>
+                <ul>
+                    <li>
+                        Javascript
+                    </li>
+                     <li>
+                        HTML5
+                    </li>
+                     <li>
+                        CSS
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        One
+                    </li>
+                     <li>
+                        Two
+                    </li>
+                     <li>
+                        Three
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        One
+                    </li>
+                     <li>
+                        Two
+                    </li>
+                     <li>
+                        Three
+                    </li>
+                </ul>
+            </div>
+        </div>
+    )
+}
 
 export default Skills

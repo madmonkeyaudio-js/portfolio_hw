@@ -108,6 +108,12 @@ h2 {
  
 }
 
+.skills {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .projects-container {
   text-align: center;
 }
