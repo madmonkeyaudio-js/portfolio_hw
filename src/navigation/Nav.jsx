@@ -43,7 +43,7 @@ class Nav extends Component {
                     to="about-container"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-120}
                     duration= {500}
                 >About
                 </Link>
@@ -52,16 +52,16 @@ class Nav extends Component {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-120}
                     duration= {500}
                 >Skills
                 </Link>
                 <Link
                     activeClass="active"
-                    to="projects"
+                    to="projects-title"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-120}
                     duration= {500}
                 >Projects
                 </Link>
