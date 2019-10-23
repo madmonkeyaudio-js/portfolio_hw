@@ -1,42 +1,20 @@
 import React, { Component } from 'react'
-import classnames from 'classnames'
 import { Link, animateScroll as scroll} from 'react-scroll'
 
 class Nav extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            prevScrollpos: window.pageYOffset,
-            visible: true
-        }
+    state = {
+        navRender: true
     }
-
-    componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll)
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll)
-    }
-
+    
     handleScroll = () => {
-        const { prevScrollpos } = this.state;
-
-        const currentScrollPos = window.pageYOffset;
-        const visible = prevScrollpos > currentScrollPos;
-
         this.setState({
-            prevScrollpos: currentScrollPos,
-            visible
+          navRender: false
         })
-    }
+      }
+    
     render() {
         return (
-            <nav
-            className={classnames('nav'), {
-                'nav--hidden': !this.state.visible
-            }}>
+            <nav className="navbar">
                 <ul>
                 <Link
                     activeClass="active"
@@ -45,7 +23,7 @@ class Nav extends Component {
                     smooth={true}
                     offset={-120}
                     duration= {500}
-                >About
+                ><li>About</li> 
                 </Link>
                 <Link
                     activeClass="active"
@@ -54,7 +32,9 @@ class Nav extends Component {
                     smooth={true}
                     offset={-120}
                     duration= {500}
-                >Skills
+                ><li>
+                    Skills
+                </li>
                 </Link>
                 <Link
                     activeClass="active"
@@ -63,7 +43,9 @@ class Nav extends Component {
                     smooth={true}
                     offset={-120}
                     duration= {500}
-                >Projects
+                ><li>
+                    Projects
+                </li>
                 </Link>
                 </ul>
             </nav>

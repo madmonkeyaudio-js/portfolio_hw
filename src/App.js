@@ -8,19 +8,30 @@ import Banner from './navigation/Banner';
 import Nav from './navigation/Nav'
 import Content from './Content';
 
-function App() {
+class App extends React.Component {
+  constructor(props){
+    super(props)
+    this.navElement = React.createRef();
+  }
 
-  return (
-    <div className="App">
-      <Router>
-        <Nav />
-        <Banner />
-          <div className="main-background">
-            <Content />
-          </div>
-      </Router>
-    </div>
-  );
+  handleScroll = () => {
+    this.navElement.current.handleScroll();
+  }
+
+  render(){
+    
+    return (
+      <div className="App" onScroll={this.handleScroll}>
+        <Router>
+          <Nav ref={this.navElement}/>
+          <Banner />
+            <div className="main-background">
+              <Content />
+            </div>
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;
