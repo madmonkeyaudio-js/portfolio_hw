@@ -21,7 +21,7 @@ class Nav extends Component {
                     to="about-container"
                     spy={true}
                     smooth={true}
-                    offset={-120}
+                    offset={-219}
                     duration= {500}
                 ><li>About</li> 
                 </Link>
@@ -30,7 +30,7 @@ class Nav extends Component {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    offset={-120}
+                    offset={-60}
                     duration= {500}
                 ><li>
                     Skills
@@ -41,7 +41,7 @@ class Nav extends Component {
                     to="projects-title"
                     spy={true}
                     smooth={true}
-                    offset={-120}
+                    offset={-100}
                     duration= {500}
                 ><li>
                     Projects

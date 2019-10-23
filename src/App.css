@@ -23,17 +23,20 @@
 .header-text {
   height: 80vh;
   width: 100vw;
+  position: absolute;
 }
 
 .my-name {
   position: relative;
-  right: 100px;
-  top: 180px;
+  left: -20%;
+  top: 30%;
 }
+
 .my-title {
   position: relative;
-  right: 150px;
-  top: 160px;
+  left: 22%;
+  top: 40%;
+  color: #FF0866;
 }
 .App-link {
   color: #61dafb;
@@ -103,7 +106,7 @@ h3 {
   text-align: center;
 }
 .about {
-  padding: 100px;
+  padding: 100px 0px;
   display: flex;
   min-width: 100vw;
   min-height: 30vh;
@@ -116,25 +119,22 @@ h3 {
 .profile {
   max-width: 50vw;
   height: 30vh;
-  padding: 0 50px 0 0;
 }
 
 .profile-pic {
   background-image: url('images/profile-pic.jpg');
-  height: 40vh;
-  width: 20vw;
-  position: absolute;
+  height: 125%;
+  width: 15vw;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 5%;
-  border: 1px solid black;
-  box-shadow: 5px 5px rgb(52, 33, 1);
+  border-radius: 50%;
 }
 
 .about-text {
   max-width: 50vw;
   border: 10px solid #33FFDA;
-  padding: 10px;
+  padding: 30px;
 }
 
 .skills {

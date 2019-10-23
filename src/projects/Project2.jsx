@@ -22,7 +22,6 @@ class Project2 extends Component {
                 </p>
                 <br/>
                 <br/>
-                <br/>
                 <p>
                     Technologies include: Mongoose, Express, React.js, Node.js, 
                 </p>
