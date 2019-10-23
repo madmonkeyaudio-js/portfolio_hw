@@ -105,6 +105,10 @@ h2 {
 h3 {
   text-align: center;
 }
+.profile-container {
+  background-color: rgba(39, 46, 67, 1);
+  color: white;
+}
 .about {
   padding: 100px 0px;
   display: flex;
@@ -112,8 +116,6 @@ h3 {
   min-height: 30vh;
   text-align: left;
   justify-content: space-around;
-  background-color: rgba(39, 46, 67, 1);
-  color: white;
 }
 
 .profile {
@@ -138,7 +140,6 @@ h3 {
 }
 
 .skills {
-  padding: 200px 0;
   display: flex;
   justify-content: space-evenly;
 }
@@ -168,15 +169,12 @@ h3 {
   transition: 0.3s;
   opacity: 1;
   transition:all 0.3s ease;
-}
-
-.fade {
- 
+  background-color: white;
 }
 
 .single-project:hover {
   transition:all 0.5s ease;
-  opacity: 0.9;
+  opacity: 0.5;
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);

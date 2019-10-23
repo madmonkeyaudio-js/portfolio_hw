@@ -11,6 +11,7 @@ class Content extends React.Component {
     render(){
         return (
             <main id="main">
+                <div className="profile-container">
                 <div className="about">
                     <div className="profile">
                         <Fade left>
@@ -20,11 +21,10 @@ class Content extends React.Component {
                     </div>
                     <Fade right>
                         <div className="about-text">
-                               <About />
+                            <About />
                         </div>
                     </Fade>
-                </div>
-                <div>
+                    </div>
                     <Skills />
                 </div>
                 <div className="projects-container">
