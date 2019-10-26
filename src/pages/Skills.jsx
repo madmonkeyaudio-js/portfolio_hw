@@ -72,8 +72,10 @@ class Skills extends React.Component {
         return (
             <div className="skills">
                 <div>
-                    <h2>Languages</h2>
-                    <input type="submit" onClick={this.handleClick1}/>
+                    <div className="skills-title">
+                        <h4>Languages</h4>
+                        <button onClick={this.handleClick1}><strong>+</strong></button>
+                    </div>
                     <div className="skill-list">
                         <ul>
                             {skillLanguage}
@@ -81,17 +83,21 @@ class Skills extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <h2>Libraries/Frameworks</h2>
-                    <input type="submit" onClick={this.handleClick2}/>
+                    <div className="skills-title">
+                        <h4>Libraries/Frameworks</h4>
+                        <button onClick={this.handleClick2}><strong>+</strong></button>
+                    </div>
                         <div className="skill-list">
                             <ul>                      
-                                    {skillFrame}
+                                {skillFrame}
                             </ul>
                         </div>
                 </div>
                 <div>
-                    <h2>Databases</h2>
-                    <input type="submit" onClick={this.handleClick3}/>
+                    <div className="skills-title">
+                        <h4>Databases</h4>
+                        <button onClick={this.handleClick3}><strong>+</strong></button>
+                    </div>
                     <div className="skill-list">
                         <ul>
                             {skillDB}

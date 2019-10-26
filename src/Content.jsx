@@ -22,10 +22,10 @@ class Content extends React.Component {
                     <Fade right>
                         <div className="about-text">
                             <About />
+                            <Skills />
                         </div>
                     </Fade>
                     </div>
-                    <Skills />
                 </div>
                 <div className="projects-container">
                     <div className="projects-title">

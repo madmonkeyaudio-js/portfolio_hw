@@ -57,7 +57,9 @@ nav {
   top: 0;
   transition: top 0.6s;
   z-index: 1;
-  background-color: rgba(47, 61, 103, 0.927);
+  background-color: rgba(80, 47, 103, 0.927);
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 255, 255);
 }
 
 .navbar--hidden {
@@ -106,14 +108,16 @@ h3 {
   text-align: center;
 }
 .profile-container {
-  background-color: rgba(39, 46, 67, 1);
+  background-color: rgb(249, 234, 234);
   color: white;
+  background-image: 
+  linear-gradient(to bottom left, #FF0866, black 50%)
 }
 .about {
   padding: 100px 0px;
   display: flex;
   min-width: 100vw;
-  min-height: 30vh;
+  min-height: 50vh;
   text-align: left;
   justify-content: space-around;
 }
@@ -131,24 +135,30 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
+  box-shadow: 5px 10px black;
 }
 
 .about-text {
   max-width: 50vw;
-  border: 10px solid #33FFDA;
   padding: 30px;
 }
 
 .skills {
+  position: absolute;
   display: flex;
-  justify-content: space-evenly;
+  padding: 10px;
 }
 
+.skills-title {
+  display: flex;
+  padding: 0px 20px;
+}
 .skill-list {
   transition:all 1s ease;
 }
 
 .projects-container {
+  background-color: rgb(249, 234, 234);
   text-align: center;
 }
 
@@ -159,9 +169,9 @@ h3 {
 }
 
 .projects-title {
-  border: 13px solid #FF0866;
   width: 20vw;
-  margin: 60px auto;
+  margin: auto;
+  color: black;
 }
 .single-project {
   min-width: 20vw;
