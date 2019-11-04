@@ -182,6 +182,11 @@ button {
 }
 .skill-list {
   transition:all 1s ease;
+  text-align: center;
+}
+
+.list-item {
+  border: 1px solid white;
 }
 
 .projects-container {

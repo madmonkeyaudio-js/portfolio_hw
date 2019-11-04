@@ -49,7 +49,7 @@ class Skills extends React.Component {
         let skillLanguage = this.state.skillLang.map((skill, idx) => {
             return (
                 <Fade>
-                    <li key={idx}>{skill}</li>
+                    <li className="list-item" key={idx}>{skill}</li>
                 </Fade>
             )
         })
@@ -57,7 +57,7 @@ class Skills extends React.Component {
         let skillFrame = this.state.skillFrame.map((skill, idx) => {
             return (
                 <Fade>
-                    <li key={idx}>{skill}</li>
+                    <li className="list-item" key={idx}>{skill}</li>
                 </Fade>
             )
         })
@@ -65,7 +65,7 @@ class Skills extends React.Component {
         let skillDB = this.state.skillDB.map((skill, idx) => {
             return (
                 <Fade>
-                    <li key={idx}>{skill}</li>
+                    <li className="list-item" key={idx}>{skill}</li>
                 </Fade>
             )
         })
