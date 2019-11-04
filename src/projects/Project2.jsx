@@ -8,7 +8,7 @@ class Project2 extends Component {
                 <div>
                     <li>
                         <a href="https://holendary-client-jon.herokuapp.com/">
-                            <div id="holendary-contain" className="fade">
+                            <div id="holendary-contain">
 
                             </div>
                         </a>
