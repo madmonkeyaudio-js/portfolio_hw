@@ -4,14 +4,15 @@ class Project2 extends Component {
     render() {
         return (
             <div className="single-project">
+                 <a href="https://holendary-client-jon.herokuapp.com/">
                 <h3>Holendary</h3>
                 <div>
                     <li>
-                        <a href="https://holendary-client-jon.herokuapp.com/">
+                       
                             <div id="holendary-contain">
 
                             </div>
-                        </a>
+                       
                     </li>
                 </div>
                <div>
@@ -26,6 +27,7 @@ class Project2 extends Component {
                     Technologies include: Mongoose, Express, React.js, Node.js, 
                 </p>
                 </div>
+                </a>
             </div>
         )
     }

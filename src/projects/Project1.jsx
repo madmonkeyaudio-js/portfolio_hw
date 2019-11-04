@@ -5,10 +5,11 @@ class Project1 extends Component {
     render() {
         return (
             <div className="single-project">
+                 <a href="https://munchmylawn.herokuapp.com/">
                 <h3>Munch My Lawn</h3>
                 <div>
                     <li>
-                        <a href="https://munchmylawn.herokuapp.com/">
+                       
                             
                             <div className="bg-video">
                             <video className="bg-video__content" autoPlay muted loop>
@@ -17,7 +18,7 @@ class Project1 extends Component {
                                 your browser does not support a video tag
                             </video>
                             </div>
-                        </a>
+                       
                     </li>
                 </div>
                 <div>
@@ -35,6 +36,7 @@ class Project1 extends Component {
                 </p>
                 </Rubberband>
                 </div>
+                </a>
             </div>
         )
     }

@@ -4,13 +4,14 @@ class Project3 extends Component {
     render() {
         return (
             <div className="single-project">
+                <a href="#">
                 <h3>My Best Buyz</h3>
                 <div className="proj-content-right">
                     <li>
-                        <a href="#">
+                        
                             <div id="bestbuyz-contain" className="fade">
                             </div>
-                        </a>
+                       
                     </li>
                 </div>
                 <div>
@@ -20,6 +21,7 @@ class Project3 extends Component {
                     people are using.
                 </p>
                 </div>
+                </a>
             </div>
         )
     }

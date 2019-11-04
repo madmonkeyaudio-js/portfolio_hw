@@ -102,6 +102,10 @@ nav a {
   font-size: 22px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 main {
   justify-content: center;
 }
@@ -125,6 +129,10 @@ h2 {
 
 h3 {
   text-align: center;
+}
+
+button {
+  margin: 20px;
 }
 .profile-container {
   background-color: rgb(249, 234, 234);
