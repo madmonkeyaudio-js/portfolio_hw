@@ -43,15 +43,12 @@
     margin: 120px auto;
     text-align: center;
   }
-  .projects-container {
+  .projects {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
-  .single-project {
-    min-width: 70%;
-  }
-  
 }
 
 .bg-video {
@@ -169,12 +166,14 @@ h3 {
 button {
   margin: 20px;
 }
+
 .profile-container {
   background-color: rgb(249, 234, 234);
   color: white;
   background-image: 
   linear-gradient(to bottom left, #FF0866, black 50%)
 }
+
 .about {
   padding: 100px 0px;
   display: flex;
@@ -215,6 +214,7 @@ button {
   display: flex;
   justify-content: space-evenly;
 }
+
 .skill-list {
   transition:all 1s ease;
   text-align: center;
