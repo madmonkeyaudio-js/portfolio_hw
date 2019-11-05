@@ -20,6 +20,31 @@
   color: white;
 }
 
+@media only screen and (max-width: 650px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-pic {
+    height: 15vh;
+    min-width: 50vw;
+    background-position: 20% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 10px 5px 5px black;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-text {
+    margin: 120px auto;
+    text-align: center;
+  }
+}
+
 .bg-video {
   text-align: center;
   position: relative;
@@ -156,13 +181,13 @@ button {
 
 .profile-pic {
   background-image: url('images/profile-pic.jpg');
-  height: 125%;
-  width: 15vw;
-  background-position: center;
-  background-size: cover;
+  height: 45vh;
+  width: 25vw;
+  background-position: 50% 20%;
   background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 50%;
-  box-shadow: 5px 10px black;
+  
 }
 
 .about-text {
@@ -171,14 +196,14 @@ button {
 }
 
 .skills {
-  position: absolute;
   display: flex;
-  padding: 10px;
+  justify-content: space-evenly;
+  position: relative;
 }
 
 .skills-title {
   display: flex;
-  padding: 0px 20px;
+  justify-content: space-evenly;
 }
 .skill-list {
   transition:all 1s ease;
