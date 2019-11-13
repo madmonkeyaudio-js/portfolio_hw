@@ -10,7 +10,7 @@
 
 .App-header {
   background-image:
-  linear-gradient(to bottom right, #FF0866 50%, rgb(249, 234, 234) 50%);
+  linear-gradient(to bottom right, rgb(255, 156, 8) 50%, rgb(249, 234, 234) 50%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,37 +18,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-@media only screen and (max-width: 650px) {
-  .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .profile-pic {
-    height: 15vh;
-    min-width: 50vw;
-    background-position: 20% 20%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 5px 10px 5px 5px black;
-  }
-  .skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .about-text {
-    margin: 120px auto;
-    text-align: center;
-  }
-  .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  text-shadow: 1px 1px black;
 }
 
 .bg-video {
@@ -87,7 +57,8 @@
   position: relative;
   left: 22%;
   top: 40%;
-  color: #FF0866;
+  color: rgb(255, 156, 8);
+  text-shadow: 1px 1px black;
 }
 .App-link {
   color: #61dafb;
@@ -103,7 +74,7 @@
 }
 
 nav {
-  width: 100%;
+  width: 100vw;
   position: fixed;
   top: 0;
   transition: top 0.6s;
@@ -171,7 +142,7 @@ button {
   background-color: rgb(249, 234, 234);
   color: white;
   background-image: 
-  linear-gradient(to bottom left, #FF0866, black 50%)
+  linear-gradient(to bottom left, #FF0866, black 50%);
 }
 
 .about {
@@ -185,7 +156,12 @@ button {
 
 .profile {
   max-width: 50vw;
-  height: 30vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .profile-pic {
@@ -196,9 +172,15 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
-  
 }
 
+#resume {
+  padding: 10px;
+  height: 40px;
+  width: 140px;
+  color: white;
+  border: 1px solid white;
+}
 .about-text {
   max-width: 50vw;
   padding: 30px;
@@ -227,12 +209,15 @@ button {
 .projects-container {
   background-color: rgb(249, 234, 234);
   text-align: center;
+  min-width: 100vw;
 }
 
 .projects {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  min-width: 100vw;
+  justify-content: space-around;
 }
 
 .projects-title {
@@ -290,3 +275,32 @@ button {
   box-shadow: 5px 8px rgb(53, 8, 8);
 }
 
+@media only screen and (max-width: 650px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-pic {
+    height: 15vh;
+    min-width: 50vw;
+    background-position: 20% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 10px 5px 5px black;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-text {
+    margin: 120px auto;
+    text-align: center;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

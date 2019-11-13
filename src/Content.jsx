@@ -13,12 +13,15 @@ class Content extends React.Component {
             <main id="main">
                 <div className="profile-container">
                 <div className="about">
+                <Fade left>
                     <div className="profile">
-                        <Fade left>
-                            <div className="profile-pic">
-                            </div>
-                        </Fade>
+                        <div className="profile-pic">
+                        </div>
+                        <a href="https://docs.google.com/document/d/1Pu85JFXAusp7s2IDk34lHqazVChcLbvH6UdJURKxxgI/edit#" download>
+                            <div id="resume">Download My Resume Here!</div>
+                        </a>
                     </div>
+                    </Fade>
                     <Fade right>
                         <div className="about-text">
                             <About />
@@ -31,7 +34,7 @@ class Content extends React.Component {
                     <div className="projects-title">
                         <h2>Projects</h2>
                     </div>
-                    <div className = "projects" id="projects">
+                    <div className="projects" id="projects">
                         <Project1 />
                         <Project2 />
                         <Project3 />
