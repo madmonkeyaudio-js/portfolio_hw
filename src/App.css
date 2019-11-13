@@ -102,7 +102,6 @@ nav a {
   text-decoration: none;
   color: white;
   padding: 0 15px;
-  font-size: 22px;
 }
 
 a {
@@ -175,6 +174,14 @@ button {
 }
 
 #resume {
+  padding: 10px;
+  height: 40px;
+  width: 140px;
+  color: white;
+  border: 1px solid white;
+}
+#resume2 {
+  display: none;
   padding: 10px;
   height: 40px;
   width: 140px;
@@ -276,13 +283,16 @@ button {
 }
 
 @media only screen and (max-width: 650px) {
+  .my-title {
+    top: 45%;
+  }
   .about {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .profile-pic {
-    height: 15vh;
+    height: 45vh;
     min-width: 50vw;
     background-position: 20% 20%;
     background-repeat: no-repeat;
@@ -295,12 +305,18 @@ button {
     align-items: center;
   }
   .about-text {
-    margin: 120px auto;
+    margin: -60px auto;
     text-align: center;
   }
   .projects {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  #resume {
+    display: none;
+  }
+  #resume2 {
+    display: block;
   }
 }
