@@ -11,11 +11,8 @@ const About = props => {
             <p>Contact me @ jonathan101093@gmail.com</p>
             <br/>
             <a href="https://docs.google.com/document/d/1Pu85JFXAusp7s2IDk34lHqazVChcLbvH6UdJURKxxgI/edit#" download>
-                <div id="resume2">Download My Resume Here!</div>
+                <div id="resume2">View My Resume Here!</div>
             </a>
-            <a href="https://www.linkedin.com/in/jonathan-gross-m/">LinkedIn</a>
-            <br/>
-            <a href="https://github.com/madmonkeyaudio-js?tab=stars">Github</a>
         </div>
     )
 }

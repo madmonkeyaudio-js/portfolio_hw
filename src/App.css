@@ -10,7 +10,7 @@
 
 .App-header {
   background-image:
-  linear-gradient(to bottom right, rgb(255, 156, 8) 50%, rgb(249, 234, 234) 50%);
+  linear-gradient(to bottom right, #FF0866 50%, rgb(249, 234, 234) 50%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@
   position: relative;
   left: 22%;
   top: 40%;
-  color: rgb(255, 156, 8);
+  color: #FF0866;
   text-shadow: 1px 1px black;
 }
 .App-link {
@@ -291,6 +291,7 @@ button {
     flex-direction: column;
     align-items: center;
   }
+
   .profile-pic {
     height: 45vh;
     min-width: 50vw;

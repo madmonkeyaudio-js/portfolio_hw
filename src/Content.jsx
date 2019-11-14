@@ -18,7 +18,7 @@ class Content extends React.Component {
                         <div className="profile-pic">
                         </div>
                         <a href="https://docs.google.com/document/d/1Pu85JFXAusp7s2IDk34lHqazVChcLbvH6UdJURKxxgI/edit#" download>
-                            <div id="resume">Download My Resume Here!</div>
+                            <div id="resume">View My Resume Here!</div>
                         </a>
                     </div>
                     </Fade>
@@ -38,6 +38,7 @@ class Content extends React.Component {
                         <Project1 />
                         <Project2 />
                         <Project3 />
+                        
                     </div>
                 </div>
             </main>

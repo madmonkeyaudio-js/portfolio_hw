@@ -47,6 +47,17 @@ class Nav extends Component {
                     Projects
                 </li>
                 </Link>
+                <li>
+                    <a href="https://www.linkedin.com/in/jonathan-gross-m/">
+                        <img src="/linkedin-icon.jpg" alt="linkedin" width="40px" height="30px"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/madmonkeyaudio-js?tab=stars">
+                        <img src="/GitHub-Mark.png" alt="github" width="40px" height="30px"/>
+                    </a>
+                </li>
+
                 </ul>
             </nav>
         )
