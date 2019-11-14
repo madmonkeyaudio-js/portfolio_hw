@@ -8,6 +8,42 @@
   pointer-events: none;
 }
 
+nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  transition: top 0.6s;
+  z-index: 1;
+  background-color: rgba(80, 47, 103, 0.927);
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 255, 255);
+}
+
+.navbar--hidden {
+  top: -50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li{
+  display: inline;
+  padding: 0px 30px;
+  font-size: 20px;
+}
+
+nav li:hover{
+  color:#33FFDA;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+}
+
 .App-header {
   background-image:
   linear-gradient(to bottom right, #FF0866 50%, rgb(249, 234, 234) 50%);
@@ -71,42 +107,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-nav {
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  transition: top 0.6s;
-  z-index: 1;
-  background-color: rgba(80, 47, 103, 0.927);
-  border-bottom-style: solid;
-  border-bottom-color: rgb(255, 255, 255);
-}
-
-.navbar--hidden {
-  top: -50px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-nav li{
-  display: inline;
-  padding: 0px 30px;
-  font-size: 20px;
-}
-
-nav li:hover{
-  color:#33FFDA;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  padding: 0 15px;
 }
 
 a {
@@ -286,8 +286,20 @@ button {
   margin: 0 10px 0 0;
   box-shadow: 5px 8px rgb(53, 8, 8);
 }
+@media only screen and (max-width: 800px){
+  .navbar {
+    flex-direction: row;
+    justify-content: center;
+  }
+  nav li{
+    display: inline;
+    padding: 0px 5px;
+    font-size: 15px;
+  }
+}
 
 @media only screen and (max-width: 650px) {
+  
   .my-title {
     top: 45%;
   }
