@@ -38,7 +38,6 @@ class Content extends React.Component {
                         <Project1 />
                         <Project2 />
                         <Project3 />
-                        
                     </div>
                 </div>
             </main>

@@ -71,7 +71,7 @@ class Skills extends React.Component {
         })
         return (
             <div className="skills">
-                <div>
+                <div className="skill-child">
                     <div className="skills-title">
                         <h4>Languages</h4>
                         <button onClick={this.handleClick1}><strong>+</strong></button>
@@ -82,7 +82,7 @@ class Skills extends React.Component {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className="skill-child">
                     <div className="skills-title">
                         <h4>Libraries/Frameworks</h4>
                         <button onClick={this.handleClick2}><strong>+</strong></button>
@@ -93,7 +93,7 @@ class Skills extends React.Component {
                             </ul>
                         </div>
                 </div>
-                <div>
+                <div className="skill-child">
                     <div className="skills-title">
                         <h4>Databases</h4>
                         <button onClick={this.handleClick3}><strong>+</strong></button>
