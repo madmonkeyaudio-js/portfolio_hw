@@ -328,6 +328,11 @@ button {
     align-items: center;
   }
 
+  #about-container {
+    justify-content: center;
+    align-items: center;
+  }
+
   .profile-pic {
     height: 45vh;
     min-width: 50vw;
@@ -356,6 +361,7 @@ button {
   }
   #resume2 {
     display: block;
+    align-items: center;
   }
   .single-project {
     min-width: 45vw;

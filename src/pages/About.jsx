@@ -10,9 +10,12 @@ const About = props => {
             <br/>
             <p>Contact me @ jonathan101093@gmail.com</p>
             <br/>
-            <a href="https://docs.google.com/document/d/1Pu85JFXAusp7s2IDk34lHqazVChcLbvH6UdJURKxxgI/edit#" download>
-                <div id="resume2">View My Resume Here!</div>
-            </a>
+            <div>
+                <a href="https://docs.google.com/document/d/1Pu85JFXAusp7s2IDk34lHqazVChcLbvH6UdJURKxxgI/edit#" download>
+                    <div id="resume2">View My Resume Here!</div>
+                </a>
+
+            </div>
         </div>
     )
 }
