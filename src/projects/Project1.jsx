@@ -5,8 +5,9 @@ class Project1 extends Component {
     render() {
         return (
             <div className="single-project">
-                 <a href="https://munch-my-lawn-jon.herokuapp.com/">
+                 <a href="#">
                 <h3>Munch My Lawn</h3>
+                <h3>Apologies! Server is Temporarily Down!</h3>
                 <div>
                     <li>
                        

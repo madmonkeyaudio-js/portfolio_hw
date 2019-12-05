@@ -8,11 +8,8 @@ class Project2 extends Component {
                 <h3>Holendary</h3>
                 <div>
                     <li>
-                       
-                            <div id="holendary-contain">
-
-                            </div>
-                       
+                        <div id="holendary-contain">
+                        </div>
                     </li>
                 </div>
                <div>

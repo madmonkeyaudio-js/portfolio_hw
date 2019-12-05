@@ -6,12 +6,11 @@ class Project3 extends Component {
             <div className="single-project">
                 <a href="#">
                 <h3>My Best Buyz</h3>
+                <h3>Apologies! Server is Temporarily Down</h3>
                 <div className="proj-content-right">
                     <li>
-                        
                             <div id="bestbuyz-contain" className="fade">
                             </div>
-                       
                     </li>
                 </div>
                 <div>
