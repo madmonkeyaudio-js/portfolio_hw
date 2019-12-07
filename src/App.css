@@ -174,12 +174,14 @@ button {
 
 .profile-pic {
   background-image: url('images/profile-pic.jpg');
-  height: 45vh;
-  width: 20vw;
-  background-position: 50% 20%;
+  max-height: 45vh;
+  min-height: 45vh;
+  min-width: 20vw;
+  max-width: 25vw;
+  background-position: 80% 80%;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 50%;
+  
 }
 
 #resume {
@@ -297,23 +299,11 @@ button {
   .skills {
     flex-direction: column;
   }
-}
-@media only screen and (max-width: 800px){
-  .navbar {
-    flex-direction: row;
-    justify-content: center;
-  }
-  nav li{
-    display: inline;
-    padding: 0px 5px;
-    font-size: 15px;
-  }
-
   .profile-pic {
-    min-width: 35vw;
-  }
-  .skills-title {
-    justify-content: column;
+    min-width: 20vw;
+    max-width: 25vw;
+    max-height: 35vh;
+    min-height: 35vh;
   }
 }
 
@@ -336,7 +326,7 @@ button {
   .profile-pic {
     height: 45vh;
     min-width: 50vw;
-    background-position: 20% 20%;
+    background-position: 80% 80%;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 10px 5px 5px black;
