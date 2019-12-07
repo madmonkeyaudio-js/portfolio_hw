@@ -15,6 +15,7 @@ class Nav extends Component {
     render() {
         return (
             <nav className="navbar">
+                
                 <div>
                     <ul>
                         <Link
@@ -50,7 +51,7 @@ class Nav extends Component {
                         </Link>
                     </ul>
                 </div>
-                <div>
+                <div className="nav-links">
                     <ul>
                         <li>
                             <a href="https://www.linkedin.com/in/jonathan-gross-m/">
@@ -64,6 +65,7 @@ class Nav extends Component {
                         </li>
                     </ul>
                 </div>
+                
             </nav>
         )
     }
