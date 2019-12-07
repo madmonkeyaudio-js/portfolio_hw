@@ -15,8 +15,7 @@ class Nav extends Component {
     render() {
         return (
             <nav className="navbar">
-                
-                <div>
+                <div className="page-links">
                     <ul>
                         <Link
                             activeClass="active"

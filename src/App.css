@@ -11,6 +11,8 @@
 nav {
   width: 100%;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   top: 0;
   transition: top 0.6s;
   z-index: 1;
@@ -23,14 +25,11 @@ nav {
   top: -50px;
 }
 
-.navbar {
+nav ul {
   display: flex;
-  justify-content: space-between;
 }
 
 nav li{
-  display: inline;
-  padding: 0px 20px;
   font-size: 20px;
   text-shadow: 1px 2px black;
 }
@@ -45,6 +44,9 @@ nav a {
   padding: 0 15px;
 }
 
+.page-links li{
+  padding: 0px 20px;
+}
 .App-header {
   background-image:
   linear-gradient(to bottom right, #FF0866 50%, rgb(249, 234, 234) 50%);
@@ -305,11 +307,17 @@ button {
     max-height: 35vh;
     min-height: 35vh;
   }
+  .nav-links li{
+    
+    padding: 0px 0px;
+  }
 }
 
 
-@media only screen and (max-width: 650px) {
-  
+@media only screen and (max-width: 700px) {
+ .page-links li {
+   padding: 0px;
+ }
   .my-title {
     top: 45%;
   }
