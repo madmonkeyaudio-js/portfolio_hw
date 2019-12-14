@@ -7,19 +7,15 @@ class Project1 extends Component {
             <div className="single-project">
                  <a href="https://munch-my-lawn-jon.herokuapp.com/">
                 <h3>Munch My Lawn</h3>
-                <h3>Apologies! Server is Temporarily Down!</h3>
                 <div>
                     <li>
-                       
-                            
-                            <div className="bg-video">
-                            <video className="bg-video__content" autoPlay muted loop>
-                                <source src="/zip_Go-Goat/WEBM/Go-Goat.webm" type="video/mp4" />
-                                <source src="/zip_Go-Goat/WEBM/Go-Goat.webm" type="video/webm" />
-                                your browser does not support a video tag
-                            </video>
-                            </div>
-                       
+                        <div className="bg-video">
+                        <video className="bg-video__content" autoPlay muted loop>
+                            <source src="/zip_Go-Goat/WEBM/Go-Goat.webm" type="video/mp4" />
+                            <source src="/zip_Go-Goat/WEBM/Go-Goat.webm" type="video/webm" />
+                            your browser does not support a video tag
+                        </video>
+                        </div>
                     </li>
                 </div>
                 <div>
